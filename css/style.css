@@ -19,6 +19,15 @@ h1 {
   text-align: left;
   color: white; }
 
+h2 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black; }
+
 header {
   background: url(../images/header.png) repeat;
   background-size: cover;
@@ -148,5 +157,76 @@ header {
             color: #CB454D; }
           header .logo_info ul li a:hover {
             color: #CB454D; }
+
+.delivery_steps {
+  padding-top: 135px;
+  padding-bottom: 95px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto; }
+  .delivery_steps .delivery_step {
+    max-width: 710px;
+    width: 100%;
+    padding: 95px 60px 95px 129px;
+    position: relative;
+    overflow: hidden;
+    background: #11192E;
+    margin-bottom: 45px; }
+    .delivery_steps .delivery_step:first-of-type h2 {
+      color: #11192e; }
+    .delivery_steps .delivery_step:first-of-type p {
+      opacity: 60%;
+      color: #11192e; }
+    .delivery_steps .delivery_step .d_step_number p {
+      opacity: 100%;
+      position: absolute;
+      bottom: -20%;
+      right: 0;
+      font-family: Montserrat;
+      font-size: 144px;
+      font-weight: 700;
+      line-height: 176px;
+      letter-spacing: 0em;
+      text-align: left; }
+    .delivery_steps .delivery_step:first-of-type {
+      background-color: #ffffff;
+      padding-right: 76px; }
+    .delivery_steps .delivery_step h2 {
+      margin-bottom: 45px; }
+    .delivery_steps .delivery_step h2 {
+      color: white; }
+    .delivery_steps .delivery_step p {
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 18px;
+      color: white; }
+    .delivery_steps .delivery_step .btn {
+      max-width: 260px;
+      width: 100%; }
+      .delivery_steps .delivery_step .btn:hover {
+        background: #162a60; }
+
+.btn {
+  display: inline-block;
+  background-color: #CB454D;
+  color: white;
+  text-align: center;
+  padding: 12px 21px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  transition: 0.3s;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
