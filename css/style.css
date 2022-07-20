@@ -179,12 +179,15 @@ header {
     display: flex;
     justify-content: space-between; }
   .delivery_steps .step_block_one .delivery_step:first-of-type {
-    background-color: #fff; }
+    background-color: #fff;
+    margin-right: 24px; }
     .delivery_steps .step_block_one .delivery_step:first-of-type h2 {
       color: black; }
     .delivery_steps .step_block_one .delivery_step:first-of-type p {
       color: black;
       opacity: 60%; }
+  .delivery_steps .step_block_two .delivery_step:first-of-type {
+    margin-right: 24px; }
   .delivery_steps .delivery_step {
     max-width: 710px;
     width: 100%;
@@ -313,6 +316,10 @@ footer {
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left; }
+  footer .footer_menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px; }
   footer .footer_info a {
     color: white;
     font-family: Montserrat;
@@ -324,12 +331,20 @@ footer {
     text-decoration: none; }
     footer .footer_info a:hover {
       color: #CB454D; }
+  footer .footer_info .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   footer .footer_info .about_list {
-    margin-bottom: 35px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
     footer .footer_info .about_list li {
       text-align: left;
       list-style: none;
-      margin-top: 10px; }
+      margin-top: 12px; }
+      footer .footer_info .about_list li:first-of-type {
+        margin-top: 11px; }
   footer .footer_info .footer_services {
     margin-left: 56px;
     padding-bottom: 37px; }
@@ -364,9 +379,6 @@ footer {
       margin-bottom: 11px; }
   footer .about_social p {
     margin-bottom: 11px; }
-  footer .container {
-    display: flex;
-    justify-content: space-between; }
   footer .footer_info {
     display: flex; }
   footer .footer_social_list {
@@ -438,6 +450,34 @@ footer {
       letter-spacing: 0em;
       text-align: left;
       margin-bottom: 40px; }
+  footer .inner {
+    padding: 20px 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white; }
+    footer .inner .container {
+      display: flex;
+      justify-content: space-between; }
+      footer .inner .container .policy {
+        display: flex;
+        justify-content: space-between; }
+        footer .inner .container .policy a {
+          font-family: Montserrat;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: white;
+          text-decoration: none; }
+          footer .inner .container .policy a:hover {
+            text-decoration: underline; }
+          footer .inner .container .policy a:last-of-type {
+            margin-left: 120px; }
 
 @keyframes footer_logo {
   0% {
