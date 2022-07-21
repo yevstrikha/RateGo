@@ -1,6 +1,83 @@
-.contact_office {
-  padding: 122px 0;
-  background-color: #fff;
-  background-image: url(../images); }
+.office {
+  padding: 120px 0;
+  display: flex; }
+  .office .container {
+    display: flex; }
+  .office .office_img {
+    max-width: 500px;
+    width: 100%;
+    margin-right: 100px; }
+    .office .office_img img {
+      width: 100%;
+      display: block; }
+  .office .office_text h4 {
+    margin-bottom: 54px; }
+  .office .office_text .office_text_top p {
+    display: flex;
+    max-width: 215px;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black; }
+    .office .office_text .office_text_top p:before {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f0e0";
+      margin-right: 15px; }
+    .office .office_text .office_text_top p:first-of-type {
+      margin-bottom: 20px; }
+      .office .office_text .office_text_top p:first-of-type:before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f3c5";
+        margin-right: 15px; }
+  .office .office_text .agency h4 {
+    line-height: 36px;
+    margin-bottom: 54px;
+    margin-top: 100px; }
+    .office .office_text .agency h4 span {
+      color: #CB454D; }
+  .office .office_text .world_location {
+    display: flex; }
+    .office .office_text .world_location .country_office:first-of-type {
+      margin-right: 56px;
+      max-width: 215px; }
+    .office .office_text .world_location .country_office .country {
+      margin-bottom: 6px;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #10172C; }
+      .office .office_text .world_location .country_office .country span {
+        color: #CB454D; }
+    .office .office_text .world_location .country_office p {
+      display: flex; }
+      .office .office_text .world_location .country_office p:last-of-type:before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f3c5";
+        margin-right: 15px; }
+
+.world_delivery {
+  background: url(../images/delivery.jpg) no-repeat;
+  background-size: cover;
+  padding: 104px 0;
+  text-align: center; }
+  .world_delivery p {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px; }
 
 /*# sourceMappingURL=contacts.css.map */
