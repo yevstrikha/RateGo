@@ -7,8 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RatGo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+
+
+
 <header>
     <div class="header_cover"></div>
     <div class="container">
@@ -53,30 +58,39 @@
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
-            <div class="menu">
-                <nav >
+            <input id="toggle" type="checkbox"></input>
 
-                    <ul>
-                        <li>
-                            <a href="index.html">Главная</a>
-                        </li>
-                        <li>
-                            <a href="">Калькулятор</a>
-                        </li>
-                        <li>
-                            <a href="">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="">О компании</a>
-                        </li>
-                        <li>
-                            <a href="contacts.html">Контакты</a>
-                        </li>
-                        <li>
-                            <a href="">Войти</a>
-                        </li>
-                    </ul>
-                </nav>
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+            <div class="nav">
+                <div class="nav-wrapper menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="">Калькулятор</a>
+                            </li>
+                            <li>
+                                <a href="">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="">О компании</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="">Войти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
             </div>
         </div>
         <h1>Как работает <span>RateGO</span></h1>
@@ -262,18 +276,20 @@
                 <a href="#" class="btn">Связаться</a>
             </div>
         </div>
-            </div>
+    </div>
     <hr>
-  <div class="inner">
-      <div class="container">
-<p>© 2021 RateGO / All rights reserved</p>
-          <div class="policy">
-              <a href="#">Terms and Conditions</a>
-              <a href="#">Privacy policy</a>
-          </div>
-      </div>
-  </div>
+    <div class="inner">
+        <div class="container">
+            <p>© 2021 RateGO / All rights reserved</p>
+            <div class="policy">
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy policy</a>
+            </div>
+        </div>
+    </div>
 </footer>
+
+<script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/973f964fd1.js" crossorigin="anonymous"></script>
 </body>
 </html>

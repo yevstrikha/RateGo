@@ -51,7 +51,8 @@ header {
   background-size: cover;
   padding-top: 22px;
   padding-bottom: 203px;
-  position: relative; }
+  position: relative;
+  height: 100vh; }
   header h1 {
     color: white; }
     header h1 span {
@@ -258,7 +259,7 @@ header {
   position: relative; }
   .consultation .container {
     position: inherit;
-    z-index: 2; }
+    z-index: 1; }
   .consultation .consult_cover {
     position: absolute;
     top: 0;
@@ -488,12 +489,32 @@ footer {
           footer .inner .container .policy a:last-of-type {
             margin-left: 120px; }
 
-@keyframes footer_logo {
-  0% {
-    transform: rotate(-5deg); }
-  50% {
-    transform: rotate(5deg); }
-  100% {
-    transform: rotate(-5deg); } }
+#toggle {
+  display: none; }
+
+/**
+  Hamburger
+**/
+/**
+Nav Styles
+**/
+/**
+Animations
+**/
+#toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 25px; }
+
+#toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg); }
+
+#toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -7px; }
+
+#toggle:checked + .hamburger + .nav {
+  top: 0;
+  transform: scale(1); }
 
 /*# sourceMappingURL=style.css.map */
