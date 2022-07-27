@@ -53,6 +53,34 @@ header {
   padding-bottom: 203px;
   position: relative;
   height: 100vh; }
+  header .languages select {
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    appearance: none;
+    background: url(../images/Vector.png) no-repeat right;
+    padding-right: 8px; }
+    header .languages select:hover {
+      cursor: pointer; }
+    header .languages select:focus-visible {
+      outline: solid 2px #CB454D;
+      cursor: pointer; }
+    header .languages select:after {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f0d7";
+      display: inline-block; }
+    header .languages select option {
+      background-color: #CB454D;
+      text-transform: uppercase; }
+  header .nav-wrapper .languages {
+    display: none; }
   header h1 {
     color: white; }
     header h1 span {
@@ -78,32 +106,6 @@ header {
     display: flex; }
     header .right_info_top .img_top {
       margin-right: 8px; }
-    header .right_info_top ul select {
-      border: none;
-      color: white;
-      font-family: Montserrat;
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 17px;
-      letter-spacing: 0em;
-      text-align: center;
-      text-transform: uppercase;
-      appearance: none;
-      background: url(../images/Vector.png) no-repeat right;
-      padding-right: 8px; }
-      header .right_info_top ul select:hover {
-        cursor: pointer; }
-      header .right_info_top ul select:focus-visible {
-        outline: solid 2px #CB454D;
-        cursor: pointer; }
-      header .right_info_top ul select:after {
-        font-family: "Font Awesome 6 Free";
-        font-weight: 900;
-        content: "\f0d7";
-        display: inline-block; }
-      header .right_info_top ul select option {
-        background-color: #CB454D;
-        text-transform: uppercase; }
   header .left_info_top {
     display: flex;
     justify-content: space-between; }

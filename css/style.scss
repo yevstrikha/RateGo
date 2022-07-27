@@ -60,7 +60,46 @@ header {
   padding-bottom: 203px;
   position: relative;
   height: 100vh;
+  .languages {
+    select {
+      border: none;
+      color: white;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: center;
+      text-transform: uppercase;
+      appearance: none;
+      background: url(../images/Vector.png) no-repeat right;
+      padding-right: 8px;
 
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:focus-visible {
+        outline: solid 2px #CB454D;
+        cursor: pointer;
+      }
+
+      &:after {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f0d7";
+        display: inline-block;
+      }
+
+      option {
+        background-color: #CB454D;
+        text-transform: uppercase;
+      }
+    }
+  }
+.nav-wrapper .languages{
+  display: none;
+}
   h1 {
     color: white;
 
@@ -102,43 +141,6 @@ header {
       margin-right: 8px;
     }
 
-    ul {
-      select {
-        border: none;
-        color: white;
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: center;
-        text-transform: uppercase;
-        appearance: none;
-        background: url(../images/Vector.png) no-repeat right;
-        padding-right: 8px;
-
-        &:hover {
-          cursor: pointer;
-        }
-
-        &:focus-visible {
-          outline: solid 2px #CB454D;
-          cursor: pointer;
-        }
-
-        &:after {
-          font-family: "Font Awesome 6 Free";
-          font-weight: 900;
-          content: "\f0d7";
-          display: inline-block;
-        }
-
-        option {
-          background-color: #CB454D;
-          text-transform: uppercase;
-        }
-      }
-    }
   }
 
   .left_info_top {
