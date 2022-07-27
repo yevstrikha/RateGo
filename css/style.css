@@ -493,12 +493,6 @@ footer {
   display: none; }
 
 /**
-  Hamburger
-**/
-/**
-Nav Styles
-**/
-/**
 Animations
 **/
 #toggle:checked + .hamburger .top-bun {

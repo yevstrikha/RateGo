@@ -76,6 +76,9 @@
   .delivery_steps .step_block_two .delivery_step:first-of-type {
     margin-right: auto;
     margin-bottom: 15px; } }
+@media only screen and (max-width: 992px) {
+  h1 {
+    text-align: center; } }
 @media only screen and (max-width: 767px) {
   .delivery_steps .delivery_step {
     padding: 30px 50px; }
@@ -95,6 +98,9 @@
       max-width: 100%; }
 
   .consult_phone {
-    margin: 0; } }
+    margin: 0; }
+
+  header .logo_info ul li a {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=media.css.map */
