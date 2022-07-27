@@ -110,11 +110,8 @@
   header {
     height: 100vh; }
     header h1 {
-      margin-top: 300px; } }
+      margin-top: 200px; } }
 @media only screen and (max-width: 420px) {
-  header h1 {
-    margin-top: 200px; }
-
   .consultation form {
     justify-content: space-between; }
     .consultation form .consult_phone, .consultation form .consult_f_name {
