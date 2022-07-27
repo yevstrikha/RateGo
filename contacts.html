@@ -49,36 +49,56 @@
         </div>
         <div class="logo_info">
             <div class="logo">
-                <a href="index.html">
+                <a href="#">
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Главная</a>
-                        </li>
-                        <li>
-                            <a href="">Калькулятор</a>
-                        </li>
-                        <li>
-                            <a href="">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="">О компании</a>
-                        </li>
-                        <li>
-                            <a href="">Контакты</a>
-                        </li>
-                        <li>
-                            <a href="">Войти</a>
-                        </li>
+            <input id="toggle" type="checkbox"></input>
+
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+            <div class="nav">
+                <div class="nav-wrapper menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="">Калькулятор</a>
+                            </li>
+                            <li>
+                                <a href="">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="">О компании</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="">Войти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="languages">
+                        <select name="language" id="language_menu">
+                            <option value="ru" selected>Ru</option>
+                            <option value="ua">ua</option>
+                            <option value="eng">eng</option>
+
+                        </select>
+
                     </ul>
-                </nav>
+
+                </div>
+
             </div>
         </div>
-        <h1>Контакты</h1>
+        <h1>Как работает <span>RateGO</span></h1>
     </div>
 </header>
 <section class="contact_office">
