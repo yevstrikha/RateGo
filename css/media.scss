@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1199px){
+  .office{
+    .office_text{
+      .world_location{
+        flex-wrap: wrap;
+        .country_office {
+          &:first-of-type{
+            margin-right: 0;
+            margin-bottom: 20px;
+          }}
+      }
+    }
+  }
+}
+
+
+
+
+
 @media only screen and (max-width: 1024px) {
   header{
 
@@ -109,8 +128,29 @@ header{
   .delivery_steps{
     padding-top: 70px;
   }
+  .office{
+    flex-wrap: wrap;
+    .office_img{
+      max-width: 100% ;
+      margin-right: 0;
+      max-height: 450px;
+      overflow: hidden;
+    }
+    .office_text{
+      width: 100%;
+      .office_text_top{
+        display: none;
+      }
+      .agency{
+        margin-top: 50px;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 767px) {
+  .header_contact{
+    height: 60vh;
+  }
   .delivery_steps .delivery_step{
   padding: 30px 50px;
 }
@@ -135,8 +175,27 @@ header{
       margin-top: 200px;
     }
   }
+  .office{
+    padding-top: 0;
+  }
+  .office_img{
+    display: none;
+  }
+  .world_delivery{
+    p{
+      font-size: 32px;
+      line-height: 38px;
+    }
+  }
 }
 @media only screen and (max-width: 420px) {
+
+  .world_delivery{
+    p{
+      font-size: 28px;
+      line-height: 32px;
+    }
+  }
 
   .consultation form{
     justify-content: space-between;

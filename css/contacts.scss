@@ -18,6 +18,7 @@
   }
 
   .office_text {
+    width: 50%;
     h4 {
       margin-bottom: 54px;
     }
@@ -79,7 +80,6 @@
       .country_office {
         &:first-of-type{
           margin-right: 56px;
-          max-width: 215px;
         }
         .country {
           margin-bottom: 6px;
