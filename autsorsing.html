@@ -5,8 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Autsorsing</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/autsorsing.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
@@ -53,34 +55,407 @@
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Главная</a>
-                        </li>
-                        <li>
-                            <a href="">Калькулятор</a>
-                        </li>
-                        <li>
-                            <a href="">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="">О компании</a>
-                        </li>
-                        <li>
-                            <a href="">Контакты</a>
-                        </li>
-                        <li>
-                            <a href="">Войти</a>
-                        </li>
+            <input id="toggle" type="checkbox"></input>
+
+            <label for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </label>
+            <div class="nav">
+                <div class="nav-wrapper menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="">Калькулятор</a>
+                            </li>
+                            <li>
+                                <a href="">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="">О компании</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="">Войти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="languages">
+                        <select name="language" id="language_menu">
+                            <option value="ru" selected>Ru</option>
+                            <option value="ua">ua</option>
+                            <option value="eng">eng</option>
+
+                        </select>
+
                     </ul>
-                </nav>
+
+                </div>
+
             </div>
         </div>
         <h1>Аутсорсинг</h1>
+        <p>Логистика без посредников. Агентируем транспорт по прямым договорам с перевозчиками. </p>
+        <h5>RateGo Logistics - агент по перевозкам ваших грузов!</h5>
+        <a href="#" class="btn">Получить консультацию</a>
     </div>
 </header>
 
+<section class="task">
+    <div class="container">
+        <h3>Задачи, которые <br>
+            мы выполняем</h3>
+        <div class="our_tasks">
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/Agency.svg" alt="">
+                </div>
+                <p>Агентирование транспорта</p>
+                <p>Поиск и букинг автотранспорта, контейнеров, ж/д вагонов и авиа мест. </p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/control.svg" alt="">
+                </div>
+                <p>Контроль <br> перевозки</p>
+                <p>Координация транспорта, контроль погрузки/выгрузки, коммуникация с водителем.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/Customs.svg" alt="">
+                </div>
+                <p>Таможенное оформление</p>
+                <p>Оформление импортных, экспортных, транзитных грузов в любом регионе Украины, странах Европы, СНГ,
+                    Азии.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/certification.svg" alt="">
+                </div>
+                <p>Сертифицирование и лицензирование</p>
+                <p>Получение разрешительных документов для торговых операций</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/handshake.svg" alt="">
+                </div>
+                <p>Согласование условий поставки</p>
+                <p>Согласование условий внешнеэкономических контрактов.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/documents.svg" alt="">
+                </div>
+                <p>Документы для сделки</p>
+                <p>Подготовка документов для торговой сделки (invoice, packing list, contract, specification etc.)</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/store.svg" alt="">
+                </div>
+                <p>Складcкие услуги</p>
+                <p>Складские услуги консалидации груза в Украину, Евросоюзе, Азии и США</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/help.svg" alt="">
+                </div>
+                <p>Помощь юриста</p>
+                <p>Юридический контроль соглашения и поддержка этапов перевозок.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/report.svg" alt="">
+                </div>
+                <p>Отчетность</p>
+                <p>Ежемесячный отчет о проделанной работе.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reason_to_trust">
+    <div class="container">
+        <h3>Причины доверить <br> логистику нам</h3>
+        <div class="all_reason">
+            <div class="reason">
+                <div class="img_reason">
+                    <img src="images/xreason-01.png.pagespeed.ic.bg6Lntmkin.webp" alt="">
+                </div>
+                <div class="reason_text">
+                    <p>01</p>
+                    <p>Мы не посредники - только прямые договора.</p>
+                </div>
+            </div>
+            <div class="reason">
+                <div class="img_reason">
+                    <img src="images/xreason-02.png.pagespeed.ic.UGZ9rZAQzN.webp" alt="">
+                </div>
+                <div class="reason_text">
+                    <p>02</p>
+                    <p>Работаем по фиксированной комиссии.</p>
+                </div>
+            </div>
+            <div class="reason">
+                <div class="img_reason">
+                    <img src="images/xreason-03.png.pagespeed.ic.Qt4W9lKZKO.png" alt="">
+                </div>
+                <div class="reason_text">
+                    <p>03</p>
+                    <p>Менеджер с вами на связи 24/7.</p>
+                </div>
+            </div>
+            <div class="reason">
+                <div class="img_reason">
+                    <img src="images/reason-04.png" alt="">
+                </div>
+                <div class="reason_text">
+                    <p>04</p>
+                    <p>16 лет на рынке. Большая наработанная база перевозчиков. </p>
+                </div>
+            </div>
+            <div class="reason">
+                <div class="img_reason">
+                    <img src="images/xreason-05.png.pagespeed.ic.HXMOd6MBkL.webp" alt="">
+                </div>
+                <div class="reason_text">
+                    <p>05</p>
+                    <p>Быстрая организация поставок.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="shipping_cost">
+    <div class="container">
+        <div class="shipping_content">
+            <p class="title_shipping">
+                Рассчитайте стоимость доставки груза
+            </p>
+            <p>Будь в курсе цен на международные перевозки 24/7! Калькулятор стоимости перевозки поможет оперативно
+                рассчитать цену доставки груза. Рассчитывай стоимость доставки от 100 кг до 22т online.</p>
+            <a href="#" class="btn">Рассчитать стоимость</a>
+        </div>
+    </div>
+</section>
+<section class="autsorsing_profitable">
+    <div class="container">
+<h2>Почему аутсорсинг <br> с RateGo - это выгодно</h2>
+        <div class="our_benefits">
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/truck.svg" alt="">
+                </div>
+                <p>Без посредников</p>
+                <p>Больше никаких посредников.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/opacity.svg" alt="">
+                </div>
+                <p>Прозрачность</p>
+                <p>Все сделки прозрачные и заключаются под нашим контролем между вашей компанией и перевозчиком непосредственно.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/calcul.svg" alt="">
+                </div>
+                <p>Калькулятор стоимости</p>
+                <p>Рассчитывайте стоимость доставки от 100 кг до 22т online.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/price.svg" alt="">
+                </div>
+                <p>Актуальные цены</p>
+                <p>Международные перевозки от Rate-Go Logistics, позволит быть в курсе рыночных цен 24/7.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/control247.svg" alt="">
+                </div>
+                <p>Контроль 24/7</p>
+                <p>Вы делегируете все задачи по логистики профессионалу, который с вами на связи 24/7.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/responsibility.svg" alt="">
+                </div>
+                <p>Ответственность</p>
+                <p>Вы ставите нам задачу - мы ее выполняем оперативно и профессионально.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/terms.svg" alt="">
+                </div>
+                <p>Лучшие условия</p>
+                <p>Будьте уверены, мы предложим вам лучшие цены и условия на перевозку и подберем надежного перевозчика.</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/resalt.svg" alt="">
+                </div>
+                <p>Работа на результат</p>
+                <p>Работаем на результат в интересах заказчика!</p>
+            </div>
+            <div class="row1">
+                <div class="row1_img">
+                    <img src="images/Group.svg" alt="">
+                </div>
+                <p>Помощь специалистов</p>
+                <p>Вам больше не нужно нанимать высококлассных дорогих специалистов в штат компании.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="consultation">
+    <div class="consult_cover"></div>
+    <div class="container">
+        <h3>Получите <span>бесплатную</span> <br> консультацию</h3>
+        <p>Заполните форму, и мы свяжемся с Вами, чтобы рассказать подробнее об аутсорсинге с RateGo logistics.</p>
+        <form action="#" method="post" name="consultation_form">
+            <div class="consult_f_name">
+                <label for="f_name">
+                    <input type="text" id="f_name" name="name" placeholder="Ваше Имя">
+                </label>
+            </div>
+            <div class="consult_phone">
+                <label for="your_phone">
+                    <input type="tel" id="your_phone" name="phone" placeholder="Ваш Телефон">
+                </label>
+            </div>
+            <button class="btn" type="submit">Получить консультацию</button>
+        </form>
+    </div>
+</section>
+<section class="best_price">
+    <div class="container">
+<p>Мы позаботимся о том, чтобы Вы получили лучшую цену на <br> перевозку по прямым контрактам с перевозчиками!</p>
+        <a href="#" class="btn">Рассчитать стоимость</a>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer_menu">
+            <div class="footer_info">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="about">
+                    <div class="about_list">
+                        <p> О компании</p>
+                        <ul>
+                            <li>
+                                <a href="#">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#">Схема работы</a>
+                            </li>
+                            <li>
+                                <a href="#">Вакансии</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about_vidjet">
+                        <a href="#" target="_blank">Калькулятор</a>
+                        <a href="#" target="_blank">Контакты</a>
+                    </div>
+                    <div class="about_social">
+                        <p>Связаться с нами:</p>
+                        <ul class="footer_social_list">
+                            <li>
+                                <a href="#" target="_blank" title="telegram">
+                                    <img src="images/telegram.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="whatsapp">
+                                    <img src="images/whatsapp.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="facebook">
+                                    <img src="images/facebook.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_services">
+                    <p>Услуги</p>
+                    <ul>
+                        <li>
+                            <a href="#">Авто</a>
+                        </li>
+                        <li>
+                            <a href="#">Море</a>
+                        </li>
+                        <li>
+                            <a href="#">Авиа</a>
+                        </li>
+                        <li>
+                            <a href="#">Сборный</a>
+                        </li>
+                        <li>
+                            <a href="#">Мультимодальный</a>
+                        </li>
+                        <li>
+                            <a href="#">Негабаритный</a>
+                        </li>
+                        <li>
+                            <a href="#">Экспедирование</a>
+                        </li>
+                        <li>
+                            <a href="#">Таможня</a>
+                        </li>
+                        <li>
+                            <a href="#">Склад</a>
+                        </li>
+                        <li>
+                            <a href="#">Аутсорсинг</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer_contact">
+                <div class="main_office">
+                    <p>Главный офис</p>
+                    <ul>
+                        <li><span>ул. Десятинная 1/3, Киев 01001 Украина</span>
+                        </li>
+                        <li><span>info@rate-and-go.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <p>Остались вопросы?</p>
+                    <p>Оставьте свои контакты, и мы свяжемся с вами в ближайшее время!</p>
+                </div>
+                <a href="#" class="btn">Связаться</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="inner">
+        <div class="container">
+            <p>© 2021 RateGO / All rights reserved</p>
+            <div class="policy">
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/973f964fd1.js" crossorigin="anonymous"></script>
 </body>
 </html>

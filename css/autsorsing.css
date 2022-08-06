@@ -1,0 +1,219 @@
+h3 {
+  line-height: 44px;
+  color: #000;
+  margin-bottom: 100px; }
+
+header {
+  background: url(../images/Autsort.jpg) no-repeat center;
+  background-size: cover; }
+  header h1 {
+    margin-bottom: 30px; }
+  header p {
+    max-width: 420px;
+    width: 100%;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px; }
+  header h5 {
+    color: white;
+    margin-bottom: 35px; }
+
+.task {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff; }
+  .task .row1 {
+    margin: 20px;
+    max-width: 280px;
+    width: 100%;
+    border-bottom: solid 2px #CB454D; }
+    .task .row1 .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px; }
+    .task .row1 img {
+      display: block;
+      width: 100%; }
+    .task .row1 p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 31px; }
+      .task .row1 p:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 27px; }
+  .task .our_tasks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+
+.reason_to_trust {
+  padding-top: 100px;
+  padding-bottom: 123px;
+  background-color: #fff; }
+  .reason_to_trust h3 {
+    margin-bottom: 76px; }
+  .reason_to_trust .all_reason {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .reason_to_trust .all_reason .reason {
+      display: flex;
+      max-width: 500px;
+      width: 100%;
+      margin-bottom: 84px; }
+      .reason_to_trust .all_reason .reason:last-of-type {
+        margin-bottom: 0; }
+      .reason_to_trust .all_reason .reason .img_reason {
+        margin-right: 22px; }
+      .reason_to_trust .all_reason .reason .reason_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .reason_to_trust .all_reason .reason .reason_text p:first-of-type {
+          font-family: Mont, sans-serif;
+          font-size: 36px;
+          font-weight: 900;
+          line-height: 50px;
+          text-align: left; }
+          .reason_to_trust .all_reason .reason .reason_text p:first-of-type:after {
+            content: '';
+            display: inline-block;
+            height: 7px;
+            width: 7px;
+            background-color: #CB454D; }
+        .reason_to_trust .all_reason .reason .reason_text p:last-of-type {
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          opacity: 60%; }
+
+.shipping_cost {
+  padding-top: 120px;
+  padding-bottom: 150px;
+  background: url(../images/shipping.jpg) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .shipping_cost:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(16, 23, 44, 0) 0%, rgba(16, 23, 44, 0.395) 52.22%, rgba(16, 23, 44, 0.5) 89.6%);
+    background: rgba(3, 15, 45, 0.35);
+    opacity: 35; }
+  .shipping_cost .shipping_content {
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+  .shipping_cost .title_shipping {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px; }
+  .shipping_cost p {
+    max-width: 528px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white; }
+  .shipping_cost a {
+    margin-top: 66px; }
+
+.autsorsing_profitable {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff; }
+  .autsorsing_profitable h2 {
+    margin-bottom: 54px; }
+  .autsorsing_profitable .our_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .autsorsing_profitable .our_benefits .row1 {
+      margin-bottom: 20px;
+      max-width: 320px;
+      width: 100%;
+      position: relative; }
+      .autsorsing_profitable .our_benefits .row1:after {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        background-color: #CB454D;
+        width: 280px;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+    .autsorsing_profitable .our_benefits .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px; }
+    .autsorsing_profitable .our_benefits img {
+      display: block; }
+    .autsorsing_profitable .our_benefits p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 28px; }
+      .autsorsing_profitable .our_benefits p:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 27px; }
+
+.consultation h3 {
+  color: white; }
+
+.best_price {
+  padding: 155px 0; }
+  .best_price p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin-bottom: 51px; }
+  .best_price .btn {
+    max-width: 250px;
+    width: 100%; }
+
+/*# sourceMappingURL=autsorsing.css.map */

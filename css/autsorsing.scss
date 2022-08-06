@@ -1,0 +1,297 @@
+h3 {
+  line-height: 44px;
+  color: #000;
+  margin-bottom: 100px;
+}
+
+header {
+  background: url(../images/Autsort.jpg) no-repeat center;
+  background-size: cover;
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    max-width: 420px;
+    width: 100%;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  h5 {
+    color: white;
+    margin-bottom: 35px;
+  }
+}
+
+.task {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff;
+
+  .row1 {
+    margin: 20px;
+    max-width: 280px;
+    width: 100%;
+    border-bottom: solid 2px #CB454D;
+
+    .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px;
+
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 31px;
+
+      &:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 27px;
+      }
+    }
+  }
+
+  .our_tasks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}
+
+.reason_to_trust {
+  padding-top: 100px;
+  padding-bottom: 123px;
+  background-color: #fff;
+
+  h3 {
+    margin-bottom: 76px;
+  }
+
+  .all_reason {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .reason {
+      display: flex;
+      max-width: 500px;
+      width: 100%;
+      margin-bottom: 84px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .img_reason {
+        margin-right: 22px;
+      }
+
+      .reason_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p:first-of-type {
+          font-family: Mont, sans-serif;
+          font-size: 36px;
+          font-weight: 900;
+          line-height: 50px;
+          text-align: left;
+
+          &:after {
+            content: '';
+            display: inline-block;
+            height: 7px;
+            width: 7px;
+            background-color: #CB454D;
+          }
+        }
+
+        p:last-of-type {
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          opacity: 60%;
+        }
+      }
+    }
+  }
+}
+
+.shipping_cost {
+  padding-top: 120px;
+  padding-bottom: 150px;
+  background: url(../images/shipping.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(16, 23, 44, 0) 0%,
+            rgba(16, 23, 44, 0.395) 52.22%,
+            rgba(16, 23, 44, 0.5) 89.6%);
+    background: rgba(3, 15, 45, 0.35);
+    opacity: 35;
+  }
+
+  .shipping_content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .title_shipping {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 22px;
+  }
+
+  p {
+    max-width: 528px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+  }
+
+  a {
+    margin-top: 66px;
+  }
+}
+
+.autsorsing_profitable {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff;
+
+  h2 {
+    margin-bottom: 54px;
+  }
+
+  .our_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .row1 {
+      margin-bottom: 20px;
+      max-width: 320px;
+      width: 100%;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        background-color: #CB454D;
+        width: 280px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px;
+
+    }
+
+    img {
+      display: block;
+    }
+
+    p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 28px;
+
+
+      &:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 27px;
+      }
+    }
+  }
+}
+
+.consultation {
+  h3 {
+    color: white;
+  }
+}
+
+.best_price {
+  padding: 155px 0;
+  p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin-bottom: 51px;
+  }
+  .btn{
+    max-width: 250px;
+    width: 100%;
+  }
+}
