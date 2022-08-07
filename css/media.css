@@ -6,7 +6,12 @@
     flex-wrap: wrap; }
     .office .office_text .world_location .country_office:first-of-type {
       margin-right: 0;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+
+  .we_transport .transport_d-flex {
+    justify-content: space-around; }
+    .we_transport .transport_d-flex .transport_1 {
+      margin: 25px; } }
 @media only screen and (max-width: 1024px) {
   header .left_info_top {
     display: none; }
