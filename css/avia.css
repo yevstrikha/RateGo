@@ -1,3 +1,43 @@
+header {
+  background: url(../images/ratego-avia.jpg) no-repeat center;
+  background-size: cover; }
+  header h1 {
+    margin-bottom: 70px; }
+  header .drop_menu {
+    background-color: #20293E;
+    max-width: 320px;
+    width: 100%;
+    color: white;
+    opacity: 80%;
+    display: none; }
+    header .drop_menu .btn {
+      background-color: #20293E;
+      max-width: 320px;
+      width: 100%;
+      text-align: left;
+      padding-left: 40px; }
+    header .drop_menu ul {
+      background-color: #20293E;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      align-items: center;
+      list-style: none;
+      padding-left: 40px; }
+      header .drop_menu ul li {
+        padding: 12px 0; }
+        header .drop_menu ul li:hover {
+          background-color: #31394C; }
+        header .drop_menu ul li:hover span {
+          color: #CB454D;
+          font-size: 16px;
+          font-weight: 700; }
+        header .drop_menu ul li a {
+          text-decoration: none;
+          color: white; }
+
 .about_service {
   padding-top: 126px;
   padding-bottom: 135px;

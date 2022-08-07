@@ -1,3 +1,7 @@
+.header_contact {
+  background: url(../images/contacts.jpg) no-repeat center;
+  background-size: cover; }
+
 .office {
   padding: 120px 0;
   display: flex; }
