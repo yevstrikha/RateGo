@@ -1,0 +1,174 @@
+.about_service {
+  padding-top: 126px;
+  padding-bottom: 135px;
+  background-color: #fff;
+
+  .avia_content {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    padding-left: 70px;
+  }
+
+  h3 {
+    color: black;
+    margin-bottom: 60px;
+  }
+
+  p {
+    margin-bottom: 80px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    //opacity: 60%;
+    span {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 24px;
+      color: black;
+
+      &:first-of-type {
+        opacity: 100%;
+        color: #CB454D;
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 40px;
+    max-width: 260px;
+  }
+}
+
+.avia_tasks {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff;
+
+  h2 {
+    margin-bottom: 54px;
+  }
+
+  .our_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .row1 {
+      margin-bottom: 80px;
+      max-width: 300px;
+      width: 100%;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        background-color: #CB454D;
+        width: 280px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px;
+
+    }
+
+    img {
+      display: block;
+    }
+
+    p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 28px;
+
+
+      &:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 13px;
+      }
+    }
+  }
+}
+
+//W E T R A N S P O R T
+.we_transport {
+  background-color: #fff;
+  padding-bottom: 120px;
+
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .transport_d-flex{
+    display: flex;
+    justify-content: space-between;
+    .transport_1{
+      max-width: 380px;
+      width: 100%;
+      max-height: 285px;
+      height: 100%;
+      background: url(../images/item1.png) no-repeat;
+      overflow: hidden;
+     p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .trans_2{
+    background: url(../images/item2.png) no-repeat;
+  }
+  .trans_3{
+    background: url(../images/item3.png) no-repeat;
+  }
+  .trans_4{
+    background: url(../images/item4.png) no-repeat;
+  }
+  .trans_5{
+    background: url(../images/item5.png) no-repeat;
+  }
+  .trans_6{
+    background: url(../images/item6.png) no-repeat;
+  }
+}

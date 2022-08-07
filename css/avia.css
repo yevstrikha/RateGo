@@ -1,0 +1,129 @@
+.about_service {
+  padding-top: 126px;
+  padding-bottom: 135px;
+  background-color: #fff; }
+  .about_service .avia_content {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    padding-left: 70px; }
+  .about_service h3 {
+    color: black;
+    margin-bottom: 60px; }
+  .about_service p {
+    margin-bottom: 80px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black; }
+    .about_service p:last-of-type {
+      margin-bottom: 0; }
+    .about_service p span {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 24px;
+      color: black; }
+      .about_service p span:first-of-type {
+        opacity: 100%;
+        color: #CB454D; }
+  .about_service .btn {
+    margin-top: 40px;
+    max-width: 260px; }
+
+.avia_tasks {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #fff; }
+  .avia_tasks h2 {
+    margin-bottom: 54px; }
+  .avia_tasks .our_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .avia_tasks .our_benefits .row1 {
+      margin-bottom: 80px;
+      max-width: 300px;
+      width: 100%;
+      position: relative; }
+      .avia_tasks .our_benefits .row1:after {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        background-color: #CB454D;
+        width: 280px;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+    .avia_tasks .our_benefits .row1_img {
+      height: 56px;
+      width: 56px;
+      margin-bottom: 28px; }
+    .avia_tasks .our_benefits img {
+      display: block; }
+    .avia_tasks .our_benefits p {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+      margin-bottom: 28px; }
+      .avia_tasks .our_benefits p:last-of-type {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: 60%;
+        margin-bottom: 13px; }
+
+.we_transport {
+  background-color: #fff;
+  padding-bottom: 120px; }
+  .we_transport p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    text-align: left;
+    margin-bottom: 50px; }
+  .we_transport .transport_d-flex {
+    display: flex;
+    justify-content: space-between; }
+    .we_transport .transport_d-flex .transport_1 {
+      max-width: 380px;
+      width: 100%;
+      max-height: 285px;
+      height: 100%;
+      background: url(../images/item1.png) no-repeat;
+      overflow: hidden; }
+      .we_transport .transport_d-flex .transport_1 p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-bottom: 0; }
+  .we_transport .trans_2 {
+    background: url(../images/item2.png) no-repeat; }
+  .we_transport .trans_3 {
+    background: url(../images/item3.png) no-repeat; }
+  .we_transport .trans_4 {
+    background: url(../images/item4.png) no-repeat; }
+  .we_transport .trans_5 {
+    background: url(../images/item5.png) no-repeat; }
+  .we_transport .trans_6 {
+    background: url(../images/item6.png) no-repeat; }
+
+/*# sourceMappingURL=avia.css.map */

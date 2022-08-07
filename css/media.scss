@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1199px){
+  .container{
+    padding: 0 60px;
+  }
   .office{
     .office_text{
       .world_location{
@@ -41,9 +44,7 @@
       margin-top: 150px;
     }
   }
-.container{
-  padding: 0 30px;
-}
+
 
   .languages{
     display: none;
