@@ -7,9 +7,9 @@ header {
     background-color: #20293E;
     max-width: 320px;
     width: 100%;
-    color: white;
-    opacity: 80%;
-    display: none; }
+    color: white; }
+    header .drop_menu:hover ul {
+      display: block; }
     header .drop_menu .btn {
       background-color: #20293E;
       max-width: 320px;
@@ -25,7 +25,8 @@ header {
       line-height: 17px;
       align-items: center;
       list-style: none;
-      padding-left: 40px; }
+      padding-left: 40px;
+      display: none; }
       header .drop_menu ul li {
         padding: 12px 0; }
         header .drop_menu ul li:hover {
@@ -37,6 +38,9 @@ header {
         header .drop_menu ul li a {
           text-decoration: none;
           color: white; }
+
+.active span {
+  color: #CB454D; }
 
 .about_service {
   padding-top: 126px;

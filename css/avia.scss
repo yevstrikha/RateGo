@@ -1,28 +1,29 @@
 header {
   background: url(../images/ratego-avia.jpg) no-repeat center;
   background-size: cover;
-  h1{
+
+  h1 {
     margin-bottom: 70px;
   }
-  .drop_menu{
-    background-color:  #20293E;
+
+  .drop_menu {
+    background-color: #20293E;
     max-width: 320px;
     width: 100%;
     color: white;
-    opacity: 80%;
-
-  display: none;
-
-
-    .btn{
-      background-color:  #20293E;
+&:hover ul{
+  display: block;
+}
+    .btn {
+      background-color: #20293E;
       max-width: 320px;
       width: 100%;
       text-align: left;
       padding-left: 40px;
     }
-    ul{
-      background-color:  #20293E;
+
+    ul {
+      background-color: #20293E;
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 600;
@@ -31,18 +32,21 @@ header {
       align-items: center;
       list-style: none;
       padding-left: 40px;
-
-      li{
+display: none;
+      li {
         padding: 12px 0;
-        &:hover{
+
+        &:hover {
           background-color: #31394C;
         }
-        &:hover span{
+
+        &:hover span {
           color: #CB454D;
           font-size: 16px;
           font-weight: 700;
         }
-        a{
+
+        a {
           text-decoration: none;
           color: white;
         }
@@ -52,8 +56,9 @@ header {
   }
 
 }
-
-
+.active span{
+  color: #CB454D;
+}
 
 .about_service {
   padding-top: 126px;
@@ -190,21 +195,24 @@ header {
     text-align: left;
     margin-bottom: 50px;
   }
-  .transport_d-flex{
+
+  .transport_d-flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: stretch;
-    .transport_1{
+
+    .transport_1 {
       max-width: 380px;
       width: 100%;
       overflow: hidden;
-      padding:113px 21px 50px ;
+      padding: 113px 21px 50px;
       margin-bottom: 15px;
       background-size: cover;
       display: flex;
       align-items: end;
-     p{
+
+      p {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -216,22 +224,28 @@ header {
       }
     }
   }
-  .trans_1{
+
+  .trans_1 {
     background: url(../images/item1.png) no-repeat;
   }
-  .trans_2{
+
+  .trans_2 {
     background: url(../images/item2.png) no-repeat;
   }
-  .trans_3{
+
+  .trans_3 {
     background: url(../images/item3.png) no-repeat;
   }
-  .trans_4{
+
+  .trans_4 {
     background: url(../images/item4.png) no-repeat;
   }
-  .trans_5{
+
+  .trans_5 {
     background: url(../images/item5.png) no-repeat;
   }
-  .trans_6{
+
+  .trans_6 {
     background: url(../images/item6.png) no-repeat;
   }
 }
