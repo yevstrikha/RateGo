@@ -5,11 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RateGo</title>
+    <title>RatGo</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/avia.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header>
@@ -44,13 +42,15 @@
                         <option value="ru" selected>Ru</option>
                         <option value="ua">ua</option>
                         <option value="eng">eng</option>
+
                     </select>
+
                 </ul>
             </div>
         </div>
         <div class="logo_info">
             <div class="logo">
-                <a href="index.html">
+                <a href="#">
                     <img src="images/logo.svg" alt="">
                 </a>
             </div>
@@ -99,139 +99,86 @@
 
             </div>
         </div>
-        <h1>Доставка груза <br>
-            для вашего бизнеса: <span>Германия</span></h1>
-        <form action="#" method="post" name="delivery_form" class="delivery_form">
-            <div class="from_form">
-                <label for="from"></label>
-                <input type="text" id="from" placeholder="Откуда">
-            </div>
-            <div class="to-form">
-                <label for="to"></label>
-                <input type="text" id="to" placeholder="Куда">
-            </div>
-            <button type="submit" class="btn">Рассчитать стоимость</button>
-        </form>
-        <p>Рассчитайте стоимость доставки вашего груза онлайн 24/7</p>
+        <h1>Как работает <span>RateGO</span></h1>
     </div>
 </header>
-<section class="about_company">
-    <div class="container">
-        <div class="about_company_content">
-            <div class="text">
-                <h3>О компании</h3>
-                <p><span>RateGo Logistics</span> - современная международная транспортная логистика. Компания
-                    специализируется на агентировании всех видов транспорта для импортных, экспортных и транзитных
-                    поставок для клиентов из разных сфер бизнеса.</p>
-                <p><span>RateGo Logistics</span> создана в 2006 году, и сейчас является признанным экспертом в области
-                    транспортно-экспедиторских услугах с большим клиентским портфелем.</p>
+
+<section class="delivery_steps">
+    <div class="step_block_one">
+        <div class="delivery_step">
+            <div class="d_step_number">
+                <p>01</p>
             </div>
-            <div class="about_img">
-                <img src="images/image3.jpg" alt="">
+            <h2>Рассчитайте стоимость </h2>
+            <p>Рассчитайте стоимости перевозки на сайте в режиме реального времени в 24/7. Переходите на страницу
+                расчетов стоимости доставки. В несколько действий укажите маршрут перевозки, параметры груза и нажмите
+                кнопку “Рассчитать”. Через секунду цена появится у Вас на экране.</p>
+            <a href="#" class="btn">Рассчитать стоимость</a>
+        </div>
+        <div class="delivery_step">
+            <div class="d_step_number">
+                <p>02</p>
             </div>
+            <h2>Оформление доставки</h2>
+            <p>Это удобно и просто сделать пройдя быструю регистрацию на сайте или позвонить нам. После расчета
+                стоимости, в специальном поле рядом с ценой, укажите Ваше имя, контактный номер телефона и email.
+                Система зарегистрирует Вас и создаст Вашу учетную запись, после чего Вы сможете управлять заказом
+                самостоятельно.</p>
+        </div>
+    </div>
+    <div class="step_block_two">
+        <div class="delivery_step">
+            <div class="d_step_number">
+                <p>03</p>
+            </div>
+            <h2>Доставка груза</h2>
+            <p>После оформления заказа, мы отправляем транспорт на погрузку и принимаем груз к перевозке. Доставка груза
+                происходит в строгом соответствии с Законом о Транспортно-Экспедиторской Деятельности, Конвенцией МДП
+                (Таможенная конвенция о международной перевозке грузов), TIR Carnet. На протяжении всей перевозки, наш
+                специалист постоянно в тесном контакте с Вами через чат или по телефону. После прохождения всех
+                таможенных процедур, мы доставляем груз в указанное место.</p>
+        </div>
+        <div class="delivery_step">
+            <div class="d_step_number">
+                <p>04</p>
+            </div>
+            <h2>Оплата услуг доставки</h2>
+            <p>Оплатить услугу доставки возможно в любой валюте тремя способами:
+                - безналичная оплата возможна в странах: Украина, Чехия, Великобритания, Россия, США;
+                - перевод на карту VISA, Master Card
+                - безналичная форма после доставки.
+                <br>
+                Для корпоративных клиентов отсрочка платежей и специальные предложения!</p>
         </div>
     </div>
 </section>
-<section class="main_service">
+<section class="consultation">
+    <div class="consult_cover"></div>
     <div class="container">
-        <h3>Наши услуги</h3>
-        <div class="m_service_flex">
-            <div class="service_item serv1">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Авто</p>
-
+        <h3>Получите <span>бесплатную</span> <br> консультацию</h3>
+        <p>Заполните форму, и мы свяжемся с Вами, чтобы рассказать подробнее об аутсорсинге с RateGo logistics.</p>
+        <form action="#" method="post" name="consultation_form">
+            <div class="consult_f_name">
+                <label for="f_name">
+                    <input type="text" id="f_name" name="name" placeholder="Ваше Имя">
+                </label>
             </div>
-            <div class="service_item serv2">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Море</p>
+            <div class="consult_phone">
+                <label for="your_phone">
+                    <input type="tel" id="your_phone" name="phone" placeholder="Ваш Телефон">
+                </label>
             </div>
-            <div class="service_item serv3">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Авиа</p>
-            </div>
-            <div class="service_item serv4">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Сборный</p>
-            </div>
-            <div class="service_item serv5">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Мультимодал</p>
-            </div>
-            <div class="service_item serv6">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Экспедир</p>
-            </div>
-            <div class="service_item serv7">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Склад</p>
-            </div>
-            <div class="service_item serv8">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Негабарит</p>
-            </div>
-            <div class="service_item serv9">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Таможня</p>
-            </div>
-            <div class="service_item serv10">
-                <a href="#">
-                </a>
-                <p><span>RateGO</span> Аутсорс</p>
-            </div>
-
-        </div>
+            <button class="btn" type="submit">Получить консультацию</button>
+        </form>
     </div>
 </section>
-<section class="good_company">
+<section class="best_price">
     <div class="container">
-        <h3>Вы в хорошей компании</h3>
-        <div class="company_flex">
-            <div class="company_item_img">
-                <img src="images/agromat.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/SkodaLogo.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/terex.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/manitou.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/sennebogen.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/ArcelorMittal.svg" alt="">
-            </div>
-            <div class="company_item_img">
-                <img src="images/epicenter.svg" alt="">
-            </div>
-
-        </div>
-    </div>
-</section>
-<section class="reviews">
-    <div class="container">
-<h3>Что о нас говорят клиенты</h3>
-    </div>
-</section>
-<section class="world_delivery">
-    <div class="container">
-        <p>Выполняем грузоперевозки <br> по всему миру</p>
+        <p>Мы позаботимся о том, чтобы Вы получили лучшую цену на <br> перевозку по прямым контрактам с перевозчиками!
+        </p>
         <a href="#" class="btn">Рассчитать стоимость</a>
     </div>
 </section>
-
 <footer>
     <div class="container">
         <div class="footer_menu">
@@ -347,6 +294,7 @@
         </div>
     </div>
 </footer>
+
 <script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/973f964fd1.js" crossorigin="anonymous"></script>
 </body>

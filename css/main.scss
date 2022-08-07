@@ -1,0 +1,232 @@
+header {
+  background: url(../images/ratego-avto.jpg) no-repeat center;
+  background-size: cover;
+  .logo_info{
+    margin-bottom: 80px;
+  }
+  h1{
+    margin-bottom: 25px;
+  }
+  .delivery_form{
+    display: flex;
+    margin-bottom: 25px;
+    .from_form{
+      margin-right: 20px;
+      max-width: 280px;
+      width: 100%;
+    }
+    .to-form{
+      max-width: 280px;
+      width: 100%;
+    }
+    input{
+      padding: 12px 20px;
+      width: 100%;
+    }
+    .btn{
+      margin-left: 20px;
+      border: none;
+      max-width: 280px;
+      width: 100%;
+      &:focus-visible {
+        outline:none;
+      }
+    }
+  }
+  p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+  }
+}
+
+.about_company{
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background-color: #fff;
+  .about_company_content{
+    display: flex;
+    .text{
+      margin-right: 120px;
+      max-width: 500px;
+      width: 100%;
+      h3{
+        color: black;
+        margin-bottom: 45px;
+      }
+      p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        &:first-of-type{
+          margin-bottom: 25px;
+        }
+        span{
+          color: #CB454D;
+          font-weight: 700;
+        }
+      }
+    }
+    .about_img{
+      max-width: 576px;
+      width: 100%;
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+
+.main_service{
+  padding-bottom: 100px;
+  h3{
+    color: black;
+    margin-bottom: 40px;
+  }
+  .m_service_flex{
+    display: flex;
+    flex-wrap: wrap;
+
+    p{
+      position: relative;
+      z-index: 2;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: white;
+      span{
+        display: block;
+        font-size: 18px;
+        line-height: 22px;
+        color: #CB454D;
+      }
+    }
+    .service_item{
+      max-width: 280px;
+      width: 100%;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      padding: 130px 35px 50px;
+      position: relative;
+      a{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      &:hover:before{
+        display: none;
+      }
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(16, 23, 44, 0) 0%, #10172C 91.99%);
+      }
+    }
+    .serv1{
+      background: url(../images/ratego-avto.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv2{
+      background: url(../images/ratego-sea.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv3{
+      background: url(../images/ratego-avia.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv4{
+      background: url(../images/ratego-lcl.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv5{
+      background: url(../images/xmultimodal.jpg.pagespeed.ic.47O0mMqzix.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv6{
+      background: url(../images/unsplash.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv7{
+      background: url(../images/ratego-warehouse.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv8{
+      background: url(../images/ratego-oversize.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv9{
+      background: url(../images/illia-cherednychenko-XdOvAFE4_RY-unsplash.jpg) no-repeat;
+      background-size: cover;
+    }
+    .serv10{
+      background: url(../images/Autsort.jpg) no-repeat;
+      background-size: cover;
+    }
+
+  }
+}
+
+.good_company{
+  padding: 145px 0;
+  background-color: #11192E;
+  h3{
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  .company_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .company_item_img{
+      margin: 20px;
+    }
+  }
+}
+
+.reviews{
+  padding: 130px 0;
+  background-color: #fff;
+  h3{
+    color: black;
+    margin-bottom: 78px;
+  }
+}
+
+
+
+
+.world_delivery{
+  background: url(../images/delivery.jpg) no-repeat;
+  background-size: cover;
+  padding: 104px 0;
+  text-align: center;
+  p{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+  }
+}
