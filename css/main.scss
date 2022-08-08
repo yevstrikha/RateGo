@@ -1,39 +1,49 @@
 header {
   background: url(../images/ratego-avto.jpg) no-repeat center;
   background-size: cover;
-  .logo_info{
+  height: 100%;
+
+  .logo_info {
     margin-bottom: 80px;
   }
-  h1{
+
+  h1 {
     margin-bottom: 25px;
   }
-  .delivery_form{
+
+  .delivery_form {
     display: flex;
     margin-bottom: 25px;
-    .from_form{
+
+    .from_form {
       margin-right: 20px;
       max-width: 280px;
       width: 100%;
     }
-    .to-form{
+
+    .to-form {
       max-width: 280px;
       width: 100%;
     }
-    input{
+
+    input {
       padding: 12px 20px;
       width: 100%;
     }
-    .btn{
+
+    .btn {
       margin-left: 20px;
       border: none;
       max-width: 280px;
       width: 100%;
+
       &:focus-visible {
-        outline:none;
+        outline: none;
       }
     }
   }
-  p{
+
+  p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -43,39 +53,47 @@ header {
   }
 }
 
-.about_company{
+.about_company {
   padding-top: 100px;
   padding-bottom: 130px;
   background-color: #fff;
-  .about_company_content{
+
+  .about_company_content {
     display: flex;
-    .text{
+
+    .text {
       margin-right: 120px;
       max-width: 500px;
       width: 100%;
-      h3{
+
+      h3 {
         color: black;
         margin-bottom: 45px;
       }
-      p{
+
+      p {
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
-        &:first-of-type{
+
+        &:first-of-type {
           margin-bottom: 25px;
         }
-        span{
+
+        span {
           color: #CB454D;
           font-weight: 700;
         }
       }
     }
-    .about_img{
+
+    .about_img {
       max-width: 576px;
       width: 100%;
-      img{
+
+      img {
         display: block;
         width: 100%;
       }
@@ -85,17 +103,19 @@ header {
 }
 
 
-.main_service{
+.main_service {
   padding-bottom: 100px;
-  h3{
+
+  h3 {
     color: black;
     margin-bottom: 40px;
   }
-  .m_service_flex{
+
+  .m_service_flex {
     display: flex;
     flex-wrap: wrap;
 
-    p{
+    p {
       position: relative;
       z-index: 2;
       font-family: 'Montserrat';
@@ -104,21 +124,24 @@ header {
       font-size: 32px;
       line-height: 39px;
       color: white;
-      span{
+
+      span {
         display: block;
         font-size: 18px;
         line-height: 22px;
         color: #CB454D;
       }
     }
-    .service_item{
+
+    .service_item {
       max-width: 280px;
       width: 100%;
       margin-bottom: 10px;
       margin-right: 10px;
       padding: 130px 35px 50px;
       position: relative;
-      a{
+
+      a {
         display: block;
         position: absolute;
         top: 0;
@@ -126,10 +149,12 @@ header {
         width: 100%;
         height: 100%;
       }
-      &:hover:before{
+
+      &:hover:before {
         display: none;
       }
-      &:before{
+
+      &:before {
         content: '';
         display: block;
         position: absolute;
@@ -140,43 +165,53 @@ header {
         background: linear-gradient(180deg, rgba(16, 23, 44, 0) 0%, #10172C 91.99%);
       }
     }
-    .serv1{
+
+    .serv1 {
       background: url(../images/ratego-avto.jpg) no-repeat;
       background-size: cover;
     }
-    .serv2{
+
+    .serv2 {
       background: url(../images/ratego-sea.jpg) no-repeat;
       background-size: cover;
     }
-    .serv3{
+
+    .serv3 {
       background: url(../images/ratego-avia.jpg) no-repeat;
       background-size: cover;
     }
-    .serv4{
+
+    .serv4 {
       background: url(../images/ratego-lcl.jpg) no-repeat;
       background-size: cover;
     }
-    .serv5{
+
+    .serv5 {
       background: url(../images/xmultimodal.jpg.pagespeed.ic.47O0mMqzix.jpg) no-repeat;
       background-size: cover;
     }
-    .serv6{
+
+    .serv6 {
       background: url(../images/unsplash.jpg) no-repeat;
       background-size: cover;
     }
-    .serv7{
+
+    .serv7 {
       background: url(../images/ratego-warehouse.jpg) no-repeat;
       background-size: cover;
     }
-    .serv8{
+
+    .serv8 {
       background: url(../images/ratego-oversize.jpg) no-repeat;
       background-size: cover;
     }
-    .serv9{
+
+    .serv9 {
       background: url(../images/illia-cherednychenko-XdOvAFE4_RY-unsplash.jpg) no-repeat;
       background-size: cover;
     }
-    .serv10{
+
+    .serv10 {
       background: url(../images/Autsort.jpg) no-repeat;
       background-size: cover;
     }
@@ -184,42 +219,45 @@ header {
   }
 }
 
-.good_company{
+.good_company {
   padding: 145px 0;
   background-color: #11192E;
-  h3{
+
+  h3 {
     text-align: center;
     margin-bottom: 90px;
   }
-  .company_flex{
+
+  .company_flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    .company_item_img{
+
+    .company_item_img {
       margin: 20px;
     }
   }
 }
 
-.reviews{
+.reviews {
   padding: 130px 0;
   background-color: #fff;
-  h3{
+
+  h3 {
     color: black;
     margin-bottom: 78px;
   }
 }
 
 
-
-
-.world_delivery{
+.world_delivery {
   background: url(../images/delivery.jpg) no-repeat;
   background-size: cover;
   padding: 104px 0;
   text-align: center;
-  p{
+
+  p {
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
@@ -229,4 +267,126 @@ header {
     color: white;
     margin-bottom: 40px;
   }
+}
+
+
+.reviews {
+  .response {
+    background-color: #f9f9f9;
+    padding: 60px 20px 60px 30px;
+    margin-right: 100px;
+
+    .response_img {
+      max-width: 160px;
+      width: 100%;
+      margin-bottom: 30px;
+      height: 17px;
+    }
+
+    p {
+      color: black;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      opacity: 60%;
+    }
+  }
+.owl-carousel{
+  .owl-item{
+    margin-bottom: 30px;
+  }
+  .owl-nav{
+    button.owl-prev, .owl-next{
+      width: 80px;
+      height: 64px;
+      border: solid 2px #11192E;
+      span{
+        color: white;
+        width: 20px;
+
+      }
+    }
+    .owl-prev{
+      &:before{
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f30b";
+        display: inline-block;
+        color: #11192E;
+        width: 20px;
+        font-size: 27px;
+        transform: rotate(180deg);
+
+      }
+    }
+    .owl-next{
+      &:before{
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f30b";        display: inline-block;
+        color: #11192E;
+        width: 20px;
+        font-size: 27px;
+      }
+
+    }
+    .owl-next{
+      border-left: none;
+    }
+  }
+
+}
+}
+
+.how_we_work{
+  h3{
+    color: black;
+    margin-bottom: 95px;
+  }
+.all_reason{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .reason{
+    display: flex;
+    margin-bottom: 78px;
+    .img_reason{
+      margin-right: 17px;
+    }
+    .reason_text{
+      max-width: 280px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        opacity: 60%;
+        &:first-of-type{
+          font-family: 'Mont',sans-serif;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 50px;
+          opacity: 100% ;
+
+          &:after{
+            content: '';
+            display: inline-block;
+            height: 7px;
+            width: 7px;
+            background-color: #CB454D;
+            margin-left: 2px;
+          }
+        }
+      }
+    }
+  }
+}
 }

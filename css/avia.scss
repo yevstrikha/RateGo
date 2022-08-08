@@ -11,6 +11,7 @@ header {
     max-width: 320px;
     width: 100%;
     color: white;
+
 &:hover ul{
   display: block;
 }
@@ -20,6 +21,18 @@ header {
       width: 100%;
       text-align: left;
       padding-left: 40px;
+      position: relative;
+
+      &:after{
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f0d7";
+        display: inline-block;
+
+      }
     }
 
     ul {

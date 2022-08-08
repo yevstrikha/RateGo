@@ -15,7 +15,16 @@ header {
       max-width: 320px;
       width: 100%;
       text-align: left;
-      padding-left: 40px; }
+      padding-left: 40px;
+      position: relative; }
+      header .drop_menu .btn:after {
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f0d7";
+        display: inline-block; }
     header .drop_menu ul {
       background-color: #20293E;
       font-family: 'Montserrat';

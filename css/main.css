@@ -1,6 +1,7 @@
 header {
   background: url(../images/ratego-avto.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%; }
   header .logo_info {
     margin-bottom: 80px; }
   header h1 {
@@ -177,5 +178,91 @@ header {
     text-align: center;
     color: white;
     margin-bottom: 40px; }
+
+.reviews .response {
+  background-color: #f9f9f9;
+  padding: 60px 20px 60px 30px;
+  margin-right: 100px; }
+  .reviews .response .response_img {
+    max-width: 160px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 17px; }
+  .reviews .response p {
+    color: black;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 60%; }
+.reviews .owl-carousel .owl-item {
+  margin-bottom: 30px; }
+.reviews .owl-carousel .owl-nav button.owl-prev, .reviews .owl-carousel .owl-nav .owl-next {
+  width: 80px;
+  height: 64px;
+  border: solid 2px #11192E; }
+  .reviews .owl-carousel .owl-nav button.owl-prev span, .reviews .owl-carousel .owl-nav .owl-next span {
+    color: white;
+    width: 20px; }
+.reviews .owl-carousel .owl-nav .owl-prev:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f30b";
+  display: inline-block;
+  color: #11192E;
+  width: 20px;
+  font-size: 27px;
+  transform: rotate(180deg); }
+.reviews .owl-carousel .owl-nav .owl-next:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f30b";
+  display: inline-block;
+  color: #11192E;
+  width: 20px;
+  font-size: 27px; }
+.reviews .owl-carousel .owl-nav .owl-next {
+  border-left: none; }
+
+.how_we_work h3 {
+  color: black;
+  margin-bottom: 95px; }
+.how_we_work .all_reason {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .how_we_work .all_reason .reason {
+    display: flex;
+    margin-bottom: 78px; }
+    .how_we_work .all_reason .reason .img_reason {
+      margin-right: 17px; }
+    .how_we_work .all_reason .reason .reason_text {
+      max-width: 280px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .how_we_work .all_reason .reason .reason_text p {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        opacity: 60%; }
+        .how_we_work .all_reason .reason .reason_text p:first-of-type {
+          font-family: 'Mont',sans-serif;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 50px;
+          opacity: 100%; }
+          .how_we_work .all_reason .reason .reason_text p:first-of-type:after {
+            content: '';
+            display: inline-block;
+            height: 7px;
+            width: 7px;
+            background-color: #CB454D;
+            margin-left: 2px; }
 
 /*# sourceMappingURL=main.css.map */
