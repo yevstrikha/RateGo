@@ -20,10 +20,10 @@
 @media only screen and (max-width: 1024px) {
   header .left_info_top {
     display: none; }
+  header .top_info {
+    display: none; }
   header .logo_info {
-    position: absolute;
-    top: -10%;
-    left: 10%; }
+    margin-top: 0; }
   header .top_info {
     justify-content: flex-end; }
   header .img_top {
@@ -104,7 +104,11 @@
     margin-bottom: 15px; } }
 @media only screen and (max-width: 992px) {
   header {
-    height: 500px; }
+    padding-top: 25px;
+    padding-bottom: 50px; }
+
+  .container {
+    padding: 0 35px; }
 
   h1 {
     text-align: center; }
@@ -167,7 +171,20 @@
       max-width: 236px; }
 
   header {
-    height: 100vh; }
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    header .delivery_form {
+      flex-wrap: wrap; }
+      header .delivery_form .from_form {
+        max-width: 100%;
+        margin-right: 0; }
+      header .delivery_form .to-form {
+        margin: 10px 0;
+        max-width: 100%; }
+      header .delivery_form .btn {
+        max-width: 100%; }
+      header .delivery_form .btn {
+        margin-left: 0; }
     header h1 {
       margin-top: 200px; }
 
@@ -203,16 +220,7 @@
     text-align: center; } }
 @media only screen and (max-width: 550px) {
   .all_reason .reason .img_reason {
-    display: none; } }
-@media only screen and (max-width: 420px) {
-  .world_delivery p {
-    font-size: 26px;
-    line-height: 32px; }
-
-  .main_service .m_service_flex {
-    justify-content: center; }
-    .main_service .m_service_flex .service_item {
-      margin-bottom: 25px; }
+    display: none; }
 
   .owl-carousel .owl-nav {
     display: none; }
@@ -233,6 +241,27 @@
       border: solid 2px #CB454D;
       margin-right: 10px;
       border-radius: 50%; }
+
+  h1 {
+    font-size: 38px; }
+
+  header .delivery_form .from_form {
+    margin-right: 0; } }
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 35px; }
+
+  .container {
+    padding: 0 5px; }
+
+  .world_delivery p {
+    font-size: 26px;
+    line-height: 32px; }
+
+  .main_service .m_service_flex {
+    justify-content: center; }
+    .main_service .m_service_flex .service_item {
+      margin-bottom: 25px; }
 
   .consultation form {
     justify-content: space-between; }

@@ -43,12 +43,13 @@
     .left_info_top {
       display: none;
     }
-
-    .logo_info {
-      position: absolute;
-      top: -10%;
-      left: 10%;
+.top_info{
+  display: none;
+}
+    .logo_info{
+      margin-top: 0;
     }
+
 
     .top_info {
       justify-content: flex-end;
@@ -159,7 +160,12 @@
 
 @media only screen and (max-width: 992px) {
   header {
-    height: 500px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+  }
+  .container{
+    padding: 0 35px;
   }
   h1 {
     text-align: center;
@@ -260,7 +266,27 @@
     }
   }
   header {
-    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+
+    .delivery_form{
+      flex-wrap: wrap;
+      .from_form{
+        max-width: 100% ;
+        margin-right: 0;
+      }
+      .to-form{
+        margin: 10px 0;
+        max-width: 100%;
+      }
+.btn{
+  max-width: 100% ;
+}
+      .btn{
+        margin-left: 0;
+      }
+    }
 
     h1 {
       margin-top: 200px;
@@ -314,29 +340,10 @@
     }
   }
 }
-
-
-}
-@media only screen and (max-width: 420px) {
-
-  .world_delivery {
-    p {
-      font-size: 26px;
-      line-height: 32px;
-    }
-  }
-  .main_service {
-    .m_service_flex {
-      justify-content: center;
-
-      .service_item {
-        margin-bottom: 25px;
-      }
-    }
-  }
   .owl-carousel  .owl-nav{
     display: none;
   }
+
   .owl-carousel  .owl-dots{
     text-align: center;
     justify-content: center;
@@ -355,6 +362,37 @@
       border: solid 2px #CB454D;
       margin-right: 10px;
       border-radius: 50%;
+    }
+  }
+h1{
+  font-size: 38px;
+}
+  header .delivery_form .from_form{
+    margin-right: 0;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  h1{
+    font-size: 35px;
+  }
+.container{
+  padding: 0 5px;
+}
+  .world_delivery {
+    p {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+  .main_service {
+    .m_service_flex {
+      justify-content: center;
+
+      .service_item {
+        margin-bottom: 25px;
+      }
     }
   }
   .consultation form {
