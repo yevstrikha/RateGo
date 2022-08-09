@@ -11,7 +11,12 @@
   .we_transport .transport_d-flex {
     justify-content: space-around; }
     .we_transport .transport_d-flex .transport_1 {
-      margin: 25px; } }
+      margin: 25px; }
+
+  .main_service .m_service_flex {
+    justify-content: space-around; }
+    .main_service .m_service_flex .service_item {
+      margin-bottom: 50px; } }
 @media only screen and (max-width: 1024px) {
   header .left_info_top {
     display: none; }
@@ -27,6 +32,9 @@
     display: block; }
   header h1 {
     margin-top: 150px; }
+
+  .main_service .m_service_flex .service_item {
+    margin-bottom: 25px; }
 
   .languages {
     display: none; }
@@ -104,6 +112,17 @@
   .delivery_steps {
     padding-top: 70px; }
 
+  .main_service .m_service_flex .service_item {
+    margin-bottom: 50px; }
+
+  .owl-carousel .owl-stage {
+    padding: 25px 0;
+    display: flex; }
+
+  .reviews .response {
+    height: 100%;
+    margin-right: 0; }
+
   .office {
     flex-wrap: wrap; }
     .office .office_img {
@@ -116,7 +135,19 @@
       .office .office_text .office_text_top {
         display: none; }
       .office .office_text .agency {
-        margin-top: 50px; } }
+        margin-top: 50px; }
+
+  .about_company .about_company_content {
+    flex-wrap: wrap; }
+    .about_company .about_company_content .about_img {
+      height: 200px;
+      max-width: 100%;
+      order: 1; }
+    .about_company .about_company_content .text {
+      max-width: 100%;
+      order: 2;
+      margin-right: 0;
+      margin-top: 25px; } }
 @media only screen and (max-width: 767px) {
   .header_contact {
     height: 60vh; }
@@ -148,11 +179,60 @@
 
   .world_delivery p {
     font-size: 32px;
-    line-height: 38px; } }
+    line-height: 38px; }
+
+  .owl-carousel .owl-nav {
+    position: relative; }
+    .owl-carousel .owl-nav button.owl-next {
+      border: solid 2px #11192E;
+      border-left: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-left: solid 2px #11192E; }
+      .owl-carousel .owl-nav button.owl-next:before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f30b";
+        display: inline-block;
+        color: #11192E;
+        width: 20px;
+        font-size: 27px; }
+
+  .how_we_work h3 {
+    text-align: center; } }
+@media only screen and (max-width: 550px) {
+  .all_reason .reason .img_reason {
+    display: none; } }
 @media only screen and (max-width: 420px) {
   .world_delivery p {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 32px; }
+
+  .main_service .m_service_flex {
+    justify-content: center; }
+    .main_service .m_service_flex .service_item {
+      margin-bottom: 25px; }
+
+  .owl-carousel .owl-nav {
+    display: none; }
+
+  .owl-carousel .owl-dots {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+    .owl-carousel .owl-dots .owl-dot.active {
+      height: 17px;
+      width: 17px;
+      background-color: #CB454D; }
+    .owl-carousel .owl-dots .owl-dot {
+      height: 12px;
+      width: 12px;
+      background: none;
+      border: solid 2px #CB454D;
+      margin-right: 10px;
+      border-radius: 50%; }
 
   .consultation form {
     justify-content: space-between; }
