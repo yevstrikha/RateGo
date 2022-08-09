@@ -182,30 +182,43 @@ header {
 .reviews .response {
   background-color: #f9f9f9;
   padding: 60px 20px 60px 30px;
-  margin-right: 100px; }
-  .reviews .response .response_img {
-    max-width: 160px;
-    width: 100%;
-    margin-bottom: 30px;
-    height: 17px; }
-  .reviews .response p {
-    color: black;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    opacity: 60%; }
-.reviews .owl-carousel .owl-item {
+  margin-right: 100px;
+  position: relative; }
+  .reviews .response:after {
+    position: absolute;
+    top: -10%;
+    right: 5%;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f10d";
+    display: inline-block;
+    color: #CB454D;
+    font-size: 50px; }
+.reviews .response_img {
+  max-width: 160px;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 17px; }
+.reviews p {
+  color: black;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 60%; }
+
+.owl-carousel .owl-stage {
+  padding: 15px 0; }
+.owl-carousel .owl-item {
   margin-bottom: 30px; }
-.reviews .owl-carousel .owl-nav button.owl-prev, .reviews .owl-carousel .owl-nav .owl-next {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav .owl-next {
   width: 80px;
   height: 64px;
   border: solid 2px #11192E; }
-  .reviews .owl-carousel .owl-nav button.owl-prev span, .reviews .owl-carousel .owl-nav .owl-next span {
-    color: white;
-    width: 20px; }
-.reviews .owl-carousel .owl-nav .owl-prev:before {
+  .owl-carousel .owl-nav button.owl-prev span, .owl-carousel .owl-nav .owl-next span {
+    display: none; }
+.owl-carousel .owl-nav .owl-prev:before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f30b";
@@ -214,16 +227,17 @@ header {
   width: 20px;
   font-size: 27px;
   transform: rotate(180deg); }
-.reviews .owl-carousel .owl-nav .owl-next:before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  content: "\f30b";
-  display: inline-block;
-  color: #11192E;
-  width: 20px;
-  font-size: 27px; }
-.reviews .owl-carousel .owl-nav .owl-next {
+.owl-carousel .owl-nav button.owl-next {
+  border: solid 2px #11192E;
   border-left: none; }
+  .owl-carousel .owl-nav button.owl-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f30b";
+    display: inline-block;
+    color: #11192E;
+    width: 20px;
+    font-size: 27px; }
 
 .how_we_work h3 {
   color: black;
@@ -251,7 +265,7 @@ header {
         line-height: 24px;
         opacity: 60%; }
         .how_we_work .all_reason .reason .reason_text p:first-of-type {
-          font-family: 'Mont',sans-serif;
+          font-family: 'Mont', sans-serif;
           font-style: normal;
           font-weight: 900;
           font-size: 36px;

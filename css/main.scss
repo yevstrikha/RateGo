@@ -275,41 +275,60 @@ header {
     background-color: #f9f9f9;
     padding: 60px 20px 60px 30px;
     margin-right: 100px;
+    position: relative;
 
-    .response_img {
-      max-width: 160px;
-      width: 100%;
-      margin-bottom: 30px;
-      height: 17px;
-    }
-
-    p {
-      color: black;
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 24px;
-      opacity: 60%;
+    &:after {
+      position: absolute;
+      top: -10%;
+      right: 5%;
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f10d";
+      display: inline-block;
+      color: #CB454D;
+      font-size: 50px;
     }
   }
-.owl-carousel{
-  .owl-item{
+
+  .response_img {
+    max-width: 160px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 17px;
+  }
+
+  p {
+    color: black;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 60%;
+  }
+}
+
+.owl-carousel {
+  .owl-stage {
+    padding: 15px 0;
+  }
+
+  .owl-item {
     margin-bottom: 30px;
   }
-  .owl-nav{
-    button.owl-prev, .owl-next{
+
+  .owl-nav {
+    button.owl-prev, .owl-next {
       width: 80px;
       height: 64px;
       border: solid 2px #11192E;
-      span{
-        color: white;
-        width: 20px;
-
+      span {
+       display: none;
       }
     }
-    .owl-prev{
-      &:before{
+
+    .owl-prev {
+      &:before {
         font-family: "Font Awesome 6 Free";
         font-weight: 900;
         content: "\f30b";
@@ -321,72 +340,79 @@ header {
 
       }
     }
-    .owl-next{
-      &:before{
+
+    button.owl-next {
+      border: solid 2px #11192E;
+      border-left: none;
+
+      &:before {
         font-family: "Font Awesome 6 Free";
         font-weight: 900;
-        content: "\f30b";        display: inline-block;
+        content: "\f30b";
+        display: inline-block;
         color: #11192E;
         width: 20px;
         font-size: 27px;
       }
-
-    }
-    .owl-next{
-      border-left: none;
     }
   }
 
 }
-}
 
-.how_we_work{
-  h3{
+
+.how_we_work {
+  h3 {
     color: black;
     margin-bottom: 95px;
   }
-.all_reason{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  .reason{
-    display: flex;
-    margin-bottom: 78px;
-    .img_reason{
-      margin-right: 17px;
-    }
-    .reason_text{
-      max-width: 280px;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      p{
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
-        opacity: 60%;
-        &:first-of-type{
-          font-family: 'Mont',sans-serif;
-          font-style: normal;
-          font-weight: 900;
-          font-size: 36px;
-          line-height: 50px;
-          opacity: 100% ;
 
-          &:after{
-            content: '';
-            display: inline-block;
-            height: 7px;
-            width: 7px;
-            background-color: #CB454D;
-            margin-left: 2px;
+  .all_reason {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .reason {
+      display: flex;
+      margin-bottom: 78px;
+
+      .img_reason {
+        margin-right: 17px;
+      }
+
+      .reason_text {
+        max-width: 280px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p {
+          font-family: 'Lato', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          opacity: 60%;
+
+          &:first-of-type {
+            font-family: 'Mont', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 50px;
+            opacity: 100%;
+
+            &:after {
+              content: '';
+              display: inline-block;
+              height: 7px;
+              width: 7px;
+              background-color: #CB454D;
+              margin-left: 2px;
+            }
           }
         }
       }
     }
   }
-}
 }
