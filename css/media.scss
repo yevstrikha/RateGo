@@ -313,6 +313,9 @@
   header {
     padding-top: 30px;
     padding-bottom: 50px;
+    .logo_avia{
+      margin-bottom: 25px;
+    }
 
 
     .delivery_form {
@@ -409,6 +412,9 @@
       }
     }
   }
+  .avia_title{
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -482,6 +488,11 @@
       .footer_contact {
         margin-top: 50px;
       }
+    }
+  }
+  .about_service{
+    .avia_content{
+      padding-left: 0;
     }
   }
 }

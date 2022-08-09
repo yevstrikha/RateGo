@@ -3,8 +3,10 @@ header {
   background-size: cover;
 
   h1 {
-    margin-bottom: 70px;
-  }
+        margin-bottom: 70px;
+
+
+    }
 
   .drop_menu {
     background-color: #20293E;
@@ -48,7 +50,9 @@ header {
 display: none;
       li {
         padding: 12px 0;
-
+&:last-of-type{
+  padding-bottom: 20px;
+}
         &:hover {
           background-color: #31394C;
         }
