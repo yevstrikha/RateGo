@@ -159,11 +159,17 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
+    @media only screen and (max-width: 1080px) {
+      .autsorsing_profitable .our_benefits {
+        justify-content: space-around; } }
     .autsorsing_profitable .our_benefits .row1 {
       margin-bottom: 20px;
       max-width: 320px;
       width: 100%;
       position: relative; }
+      @media only screen and (max-width: 767px) {
+        .autsorsing_profitable .our_benefits .row1 {
+          margin-bottom: 50px; } }
       .autsorsing_profitable .our_benefits .row1:after {
         content: '';
         display: inline-block;

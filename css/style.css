@@ -294,7 +294,6 @@ header {
     .consultation form .consult_phone {
       margin: 0 17px; }
     .consultation form input {
-      max-width: 155px;
       width: 100%;
       padding: 13px 19px;
       font-family: Montserrat;
@@ -305,6 +304,9 @@ header {
       text-align: left;
       color: black;
       border: none; }
+    .consultation form .consult_f_name, .consultation form .consult_phone {
+      max-width: 155px;
+      width: 100%; }
   .consultation button {
     max-width: 236px;
     width: 100%;

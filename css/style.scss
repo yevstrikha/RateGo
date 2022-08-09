@@ -44,7 +44,8 @@ h3 {
   text-align: left;
   color: white;
 }
-h4{
+
+h4 {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 700;
@@ -52,11 +53,13 @@ h4{
   letter-spacing: 0em;
   text-align: left;
 }
-h5{
+
+h5 {
   font-family: Lato;
   font-size: 20px;
   line-height: 24px;
 }
+
 header {
   background: url(../images/header.png) repeat;
   background-size: cover;
@@ -64,6 +67,7 @@ header {
   padding-bottom: 203px;
   position: relative;
   height: 100vh;
+
   .languages {
     select {
       border: none;
@@ -101,9 +105,11 @@ header {
       }
     }
   }
-.nav-wrapper .languages{
-  display: none;
-}
+
+  .nav-wrapper .languages {
+    display: none;
+  }
+
   h1 {
     color: white;
 
@@ -418,7 +424,6 @@ header {
     }
 
     input {
-      max-width: 155px;
       width: 100%;
       padding: 13px 19px;
       font-family: Montserrat;
@@ -429,6 +434,11 @@ header {
       text-align: left;
       color: black;
       border: none;
+    }
+
+    .consult_f_name, .consult_phone {
+      max-width: 155px;
+      width: 100%;
     }
   }
 
@@ -694,7 +704,8 @@ footer {
       }
     }
   }
-  .inner{
+
+  .inner {
     padding: 20px 0;
     font-family: Montserrat;
     font-size: 14px;
@@ -702,14 +713,17 @@ footer {
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
-color: white;
-    .container{
+    color: white;
+
+    .container {
       display: flex;
       justify-content: space-between;
-      .policy{
+
+      .policy {
         display: flex;
         justify-content: space-between;
-        a{
+
+        a {
           font-family: Montserrat;
           font-size: 14px;
           font-weight: 500;
@@ -718,10 +732,12 @@ color: white;
           text-align: left;
           color: white;
           text-decoration: none;
-          &:hover{
+
+          &:hover {
             text-decoration: underline;
           }
-          &:last-of-type{
+
+          &:last-of-type {
             margin-left: 120px;
 
 
@@ -731,10 +747,6 @@ color: white;
     }
   }
 }
-
-
-
-
 
 
 #toggle {
@@ -749,10 +761,12 @@ Animations
   transform: rotate(-45deg);
   margin-top: 25px;
 }
+
 #toggle:checked + .hamburger .bottom-bun {
   opacity: 0;
   transform: rotate(45deg);
 }
+
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
   margin-top: -7px;
@@ -762,8 +776,6 @@ Animations
   top: 0;
   transform: scale(1);
 }
-
-
 
 
 
