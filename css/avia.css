@@ -1,8 +1,18 @@
 header {
   background: url(../images/ratego-avia.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  height: 85vh; }
+  @media only screen and (max-width: 850px) {
+    header {
+      height: 100vh; } }
+  @media only screen and (max-width: 850px) {
+    header {
+      height: 60vh; } }
   header h1 {
     margin-bottom: 70px; }
+    @media only screen and (max-width: 850px) {
+      header h1 {
+        margin-top: 250px; } }
   header .drop_menu {
     background-color: #20293E;
     max-width: 320px;
