@@ -3,10 +3,10 @@ header {
   background-size: cover;
 
   h1 {
-        margin-bottom: 70px;
+    margin-bottom: 70px;
 
 
-    }
+  }
 
   .drop_menu {
     background-color: #20293E;
@@ -14,9 +14,10 @@ header {
     width: 100%;
     color: white;
 
-&:hover ul{
-  display: block;
-}
+    &:hover ul {
+      display: block;
+    }
+
     .btn {
       background-color: #20293E;
       max-width: 320px;
@@ -25,7 +26,7 @@ header {
       padding-left: 40px;
       position: relative;
 
-      &:after{
+      &:after {
         position: absolute;
         top: 30%;
         right: 10%;
@@ -47,12 +48,15 @@ header {
       align-items: center;
       list-style: none;
       padding-left: 40px;
-display: none;
+      display: none;
+
       li {
         padding: 12px 0;
-&:last-of-type{
-  padding-bottom: 20px;
-}
+
+        &:last-of-type {
+          padding-bottom: 20px;
+        }
+
         &:hover {
           background-color: #31394C;
         }
@@ -73,7 +77,8 @@ display: none;
   }
 
 }
-.active span{
+
+.active span {
   color: #CB454D;
 }
 

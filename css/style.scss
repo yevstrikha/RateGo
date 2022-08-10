@@ -775,6 +775,8 @@ Animations
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
+  position: fixed;
+  z-index: 2;
 }
 
 
