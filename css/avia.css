@@ -1,6 +1,7 @@
 header {
   background: url(../images/ratego-avia.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 25px; }
   header h1 {
     margin-bottom: 70px; }
   header .drop_menu {

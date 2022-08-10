@@ -56,8 +56,7 @@ header {
   background-size: cover;
   padding-top: 22px;
   padding-bottom: 203px;
-  position: relative;
-  height: 100vh; }
+  position: relative; }
   header .languages select {
     border: none;
     color: white;
